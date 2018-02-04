@@ -22,3 +22,7 @@ func isExtendedASCII(s string) bool {
     }
     return true
 }
+
+func main() {
+	func ExtendedGreetingASCII() string {
+}
