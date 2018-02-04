@@ -26,20 +26,6 @@ func DoSwap(list []int, i1 ,i2 int){
 
 }
 
-// Implementering av Bubble_sort algoritmen
-func BubbleSort(list []int) {
-	// find the length of list n
-	n := len(list)
-	for i := 0; i < n; i++ {
-		for j := 0; j < n-1; j++ {
-			if list[j] > list[j+1] {
-				temp := list[j+1]
-				list[j+1] = list[j]
-				list[j] = temp
-			}
-		}
-	}
-}
 
 // Implementering av Quicksort algoritmen
 func QuickSort(values []int) {
