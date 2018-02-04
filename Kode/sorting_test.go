@@ -41,7 +41,7 @@ func BenchmarkBSortModified10000(b *testing.B) {
 
 
 
-// Benchmark håpe faen dette funke. hate livet atm
+// Benchmark Jokke
 func benchmarkBSortModified(i int, b *testing.B) {
 	for j := 0; j < b.N; j++ {
 		b.StopTimer()
